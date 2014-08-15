@@ -6,7 +6,6 @@
 ##setwd("./RepData_PeerAssessment1")
 steps<-read.csv("./activity/activity.csv")
 ```
-
 ## What is mean total number of steps taken per day?
 #### Get averages by day
 
@@ -53,7 +52,6 @@ stepmin[order(stepmin$steps),][288,]$interval
 ```
 ## [1] 835
 ```
-
 ## Imputing missing values
  
 
@@ -88,7 +86,6 @@ stepmin[order(stepmin$steps),][288,]$interval
 ##      56.669       47.006        5.895
 ```
 # Now imputing (the instructions say to create a new dataset, but I'm just adding a variable to the existing dataset, which lends itself to more useful comparisons): 
-
  
 
 ```r
